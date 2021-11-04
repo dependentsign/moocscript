@@ -11,7 +11,7 @@ for i in range(5):
 mouse = chrome.find_elements_by_xpath("//div/input")
 # with open('pagesource', 'w')as f:
 #     f.write(chrome.page_source)
-mouse[0].send_keys('13393906361')
+mouse[0].send_keys('*****')
 mouse[1].send_keys('****')
 chrome.find_element_by_xpath("//div/button").click()
 
